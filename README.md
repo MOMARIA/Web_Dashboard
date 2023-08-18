@@ -2,6 +2,13 @@
 
 This project is a web dashboard that visualizes German CO2 emissions data in a map and charts using Python and the Dash framework. It allows users to explore pollution data interactively.
 
+## Deployment
+
+The web app is deployed on Render and can be accessed at:
+[https://de-co2-dashboard.onrender.com](https://de-co2-dashboard.onrender.com)
+
+## Data Source
+
 ## Data Source
 
 The pollution data used in this project comes from the European Environment Agency (EEA). It contains information about the total quantity of pollutants released by various facilities, categorized by medium and pollutant type.
