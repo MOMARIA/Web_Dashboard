@@ -52,7 +52,7 @@ app = dash.Dash(__name__)
 server = app.server
 
 app.layout = html.Div([
-    html.H1("Facilities and their Pollutant Quantity in Germany"),
+    html.H1("Facilities and their CO2 Emissions in Germany"),
     html.Div([
         dcc.Graph(id='map', clickData={'points': [{'hovertext': initial_facility}]}),  # Initial clickData set to default facility
         html.Div(id='main-activity', style={'margin-left': '100px', 'display': 'inline-block', 'vertical-align': 'top', 'width': '600px'})
