@@ -49,6 +49,7 @@ polygons = requests.get(
 initial_facility = "AGR mbH"
 
 app = dash.Dash(__name__)
+server = app.server
 
 app.layout = html.Div([
     html.H1("Facilities and their Pollutant Quantity in Germany"),
