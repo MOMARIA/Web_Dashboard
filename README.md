@@ -4,8 +4,7 @@ This project is a web dashboard that visualizes German CO2 emissions data in a m
 
 ## Deployment
 
-The web app is deployed on Render and can be accessed at:
-[https://de-co2-dashboard.onrender.com](https://de-co2-dashboard.onrender.com)
+The web app is deployed on Render and can be accessed [here](https://de-co2-dashboard.onrender.com)
 
 ## Data Source
 
