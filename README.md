@@ -8,8 +8,6 @@ The web app is deployed on Render and can be accessed [here](https://de-co2-dash
 
 ## Data Source
 
-## Data Source
-
 The pollution data used in this project comes from the European Environment Agency (EEA). It contains information about the total quantity of pollutants released by various facilities, categorized by medium and pollutant type.
 
 - Data Source: [EEA Data Hub](https://www.eea.europa.eu/en/datahub/datahubitem-view/9405f714-8015-4b5b-a63c-280b82861b3d)
