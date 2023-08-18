@@ -1,6 +1,6 @@
 # Web Dashboard for CO2 Emissions Data
 
-This project is a web dashboard that visualizes German CO2 emissions data in a map and charts using Python and the Dash framework. It allows users to interactively explore pollution data
+This project is a web dashboard that visualizes German CO2 emissions data in a map and charts using Python and the Dash framework. It allows users to explore pollution data interactively.
 
 ## Data Source
 
@@ -16,7 +16,7 @@ The map visualizations are generated using GeoJSON data for Germany's administra
 
 ## Requirements
 
-To run the web dashboard locally, you will need to install the required Python packages. You can install them using the `requirements.txt` file provided in the repository.
+To run the web dashboard locally, you must install the required Python packages. You can install them using the `requirements.txt` file in the repository.
 
 ```
 pip install -r requirements.txt
