@@ -33,5 +33,3 @@ To run the web dashboard, execute the `Web_Dashboard.py` script:
 ```
 python Web_Dashboard.py
 ```
-
-The dashboard will be accessible in your web browser at `http://127.0.0.1:8050/`.
