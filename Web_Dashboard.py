@@ -75,7 +75,7 @@ def update_output(clickData):
         locations=[feature['id'] for feature in polygons['features']],
         color_discrete_sequence=["lightgray"],
         projection='miller',
-        title="Facilities and their Pollutant Quantity in Germany"
+        title="Facilities and their CO2 Emissions in Germany"
     )
 
     fig_map.add_trace(
@@ -88,8 +88,8 @@ def update_output(clickData):
             color_continuous_scale=px.colors.sequential.Viridis,
             size_max=30,
             hover_name='nameOfFacility',
-            hover_data=['Mean_totalPollutantQuantityMegaTonne', "mainActivityName"],
-            title="Facility Pollutant Quantities"
+            hover_data=['Mean_totalPollutantQuantityMegaTonne'],
+            title="Facility CO2 Emissions"
         ).data[0]
     )
 
@@ -101,8 +101,8 @@ def update_output(clickData):
                      x='reportingYear', 
                      y='totalPollutantQuantityMegaTonne', 
                      color='methodShortName', 
-                     title=f"Total CO2 Quantity (MegaTonne) vs Reporting Year for {facility}",
-                     labels={'totalPollutantQuantityMegaTonne': 'Total CO2 Quantity (MegaTonne)', 'reportingYear': 'Reporting Year'},
+                     title=f"Total CO2 Emissions (MegaTonne) vs Reporting Year for {facility}",
+                     labels={'totalPollutantQuantityMegaTonne': 'Total CO2 Emissions (MegaTonne)', 'reportingYear': 'Reporting Year'},
                      color_discrete_sequence=px.colors.qualitative.Plotly,
                      text_auto=True)
     fig_bar.update_layout(bargap=0.6)
